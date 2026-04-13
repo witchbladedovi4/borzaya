@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>bar.3a9</title>
+</head>
+
+<body data-theme="dark">
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <a href="#" class="logo">
+                    <img src="image/logo.svg" alt="logo">
+                </a>
+
+                <!-- Кнопка переключения темы -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Сменить тему">
+                    <span class="theme-toggle__icon">🌙</span>
+                </button>
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главное</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Галерея</a></li>
+                        <li class="nav__item"><a href="#order" class="nav__link">Заказать</a></li>
+                        <li class="nav__item"><a href="#servisec" class="nav__link">Услуги</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Контакты</a></li>
+                    </ul>
+
+                    <!-- Бургер-меню для мобилок -->
+                    <button class="burger" id="burgerBtn">
+                        <span></span><span></span><span></span>
+                    </button>
+                </nav>
+
+                <div class="contacts">
+                    <a href="tel:+79994445533" class="contacts__phone">+7 999 444-55-33</a>
+                    <ul class="socials">
+                        <li class="socials__item"><a href="#" class="socials__link"><img src="image/fb.svg"
+                                    alt="Facebook"></a></li>
+                        <li class="socials__item"><a href="#" class="socials__link"><img src="image/tw.svg"
+                                    alt="Twitter"></a></li>
+                        <li class="socials__item"><a href="#" class="socials__link"><img src="image/inst.svg"
+                                    alt="Instagram"></a></li>
+                        <li class="socials__item"><a href="#" class="socials__link"><img src="image/pint.svg"
+                                    alt="Pinterest"></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="hero">
+                <div class="hero__content">
+                    <h1 class="hero__title">Горько<br>Кисло<br>Сладко</h1>
+                    <p class="hero__description">bar.3a9 - не просто бар или прилагательное.<br>
+                        Это что-то больше чем заведение..<br>
+                        Это как музыка<br>
+                        Это как что-то горькое<br>
+                        Как что-то вкусное<br>
+                        Как чувства, либо их отсутствие<br>
+                        Как равнодушие, это как что-то, чем-то<br>
+                        Одному, ну либо вместе с кем-то<br>
+                        Дико и клёво одновременно<br>
+                        Это как проституция<br>
+                        Как преступление и конституция<br>
+                        Это как звезды, как эволюция</p>
+                    <a class="btn btn--primary" href="#">
+                        <span>Забронировать</span>
+                        <img src="image/decor/arrowRight.svg" alt="→">
+                    </a>
+                    <div class="trust-badge">
+                        <div class="trust-badge__avatars">
+                            <img class="trust-badge__avatar" src="image/trump.jpg" alt="Trump">
+                            <img class="trust-badge__avatar" src="image/pdidi.jpg" alt="pdidi">
+                            <img class="trust-badge__avatar" src="image/epshtein.jpg" alt="epshtein">
+                        </div>
+                        <div class="trust-badge__text">
+                            <span>Более 5млн довольных клиентов</span>
+                            <span>Самые довольные посетители</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="image/mehana.jfif" alt="hero">
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="section__about" id="about">
+                <div class="stats">
+                    <div class="stats__item">
+                        <span class="stats__value">18 лет</span>
+                        <span class="stats__label">На рынке</span>
+                    </div>
+                    <div class="stats__item">
+                        <span class="stats__value">100+</span>
+                        <span class="stats__label">Поводов выпить</span>
+                    </div>
+                    <div class="stats__item">
+                        <span class="stats__value">18+</span>
+                        <span class="stats__label">Возрастное ограничение</span>
+                    </div>
+                    <div class="stats__item">
+                        <span class="stats__value">30+</span>
+                        <span class="stats__label">Авторских коктейлей</span>
+                    </div>
+                </div>
+                <div class="about">
+                    <div class="about__content">
+                        <span>Тебе не нравится</span>
+                        <span class="about__bold">мир</span>
+                        <span>в котором ты живешь?</span>
+                        <span>У нас есть огромный выбор авторских коктейлей,<br>которые помогут нарисовать</span>
+                        <span class="about__bold">другой</span>
+                    </div>
+                    <div class="about__image">
+                        <img src="image/party.jpg" alt="party">
+                    </div>
+                </div>
+            </section>
+            <section class="order-section" id="order">
+                <div class="order-form">
+                    <div class="order-form__inner">
+                        <h3 class="order-form__title">Хочешь попробовать все фазы алкогольного веселья?</h3>
+                        <p class="order-form__subtitle">Оставь заявку — подберем коктейль под настроение</p>
+                        <form id="orderForm" class="order-form__fields">
+                            <div class="form-group">
+                                <input type="text" id="userName" placeholder="Как к тебе обращаться?" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="userPhone" placeholder="Номер телефона" required>
+                            </div>
+                            <button type="submit" class="btn btn--secondary">Отправить заявку</button>
+                        </form>
+                        <div id="formSuccess" class="order-form__success">✅ Спасибо! Мы свяжемся с тобой.</div>
+                    </div>
+                </div>
+                <div class="filter">
+                    <button class="filter__btn active" data-filter="all">Все коктейли</button>
+                    <button class="filter__btn" data-filter="bitter">Горькие 💀</button>
+                    <button class="filter__btn" data-filter="sweet">Сладкие 🍬</button>
+                    <button class="filter__btn" data-filter="sour">Кислые 🍋</button>
+                </div>
+                <div class="slider">
+                    <div class="slider__track" id="sliderTrack">
+                        <div class="slider__slide">
+                            <img src="image/coctail (1).jpg" alt="cocktail">
+                            <span class="slider__caption">Безысходность</span>
+                            <div class="slider__desc">
+                                <h4>Безысходность</h4>
+                                <p>❝Давай пить на брудершафт, пока не выблюем друг друга❞</p>
+                                <div class="slider__ingredients">Водка, ликер, лимон, сироп</div>
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <img src="image/coctail (2).jpg" alt="cocktail">
+                            <span class="slider__caption">Саморазрушение</span>
+                            <div class="slider__desc">
+                                <h4>💀 Саморазрушение</h4>
+                                <p>❝Я разорвал бы тысячу лиц, поставив на жизни тысячу точек❞</p>
+                                <div class="slider__ingredients">Виски, абсент, энергетик, лед</div>
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <img src="image/coctail (3).jpg" alt="cocktail">
+                            <span class="slider__caption">Детские травмы</span>
+                            <div class="slider__desc">
+                                <h4>Детские травмы</h4>
+                                <p>❝Их надо проработать, но я не хочу работать❞</p>
+                                <div class="slider__ingredients">Водка, ликер, лимон, сироп</div>
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <img src="image/coctail (4).jpg" alt="cocktail">
+                            <span class="slider__caption">Кладбище самокатов</span>
+                            <div class="slider__desc">
+                                <h4>Кладбище самокатов</h4>
+                                <p>❝У нас никогда все не будет получше мы так озабочены и некрасивы а мне до сих пор не
+                                    знакомо то место в котором я рою все эти могилы❞</p>
+                                <div class="slider__ingredients">Виски, абсент, энергетик, лед</div>
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <img src="image/coctail5.jpg" alt="cocktail">
+                            <span class="slider__caption">Ресентимент</span>
+                            <div class="slider__desc">
+                                <h4>Ресентимент</h4>
+                                <p>❝Я не хотел пропивать свое счастье но привязавшись к нему я ослеп❞</p>
+                                <div class="slider__ingredients">Виски, абсент, энергетик, лед</div>
+                            </div>
+                        </div>
+                        <div class="slider__slide">
+                            <img src="image/coctail6.jpg" alt="cocktail">
+                            <span class="slider__caption">ЗППП</span>
+                            <div class="slider__desc">
+                                <h4>ЗППП</h4>
+                                <p>❝Я вроде заболел тобой❞</p>
+                                <div class="slider__ingredients">Виски, абсент, энергетик, лед</div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slider__btn slider__btn--prev" id="prevBtn">❮</button>
+                    <button class="slider__btn slider__btn--next" id="nextBtn">❯</button>
+                    <div class="slider__dots" id="sliderDots"></div>
+                </div>
+            </section>
+
+            <!-- Список услуг -->
+            <section class="services" id="servisec">
+                <h2 class="services__title">Наши услуги</h2>
+                <p class="services__subtitle">Что мы предлагаем</p>
+                <div class="services__grid">
+                    <div class="service-card">
+                        <div class="service-card__icon">🍸</div>
+                        <h3>Авторские коктейли</h3>
+                        <p>Более 30 уникальных рецептов от нашего бармена. Каждый коктейль — отдельная история.</p>
+                        <span class="service-card__price">от 450₽</span>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon">🎤</div>
+                        <h3>Караоке</h3>
+                        <p>Вечеринки до утра. Более 10 000 песен. Каждую пятницу — битва караоке.</p>
+                        <span class="service-card__price">от 1000₽/час</span>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon">🎂</div>
+                        <h3>Банкеты</h3>
+                        <p>Дни рождения, корпоративы, выпускные. Индивидуальное меню и обслуживание.</p>
+                        <span class="service-card__price">договорная</span>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon">🚚</div>
+                        <h3>Кейтеринг</h3>
+                        <p>Выездное обслуживание. Бар на вашем мероприятии. Работаем по всему городу.</p>
+                        <span class="service-card__price">от 5000₽</span>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon">🍷</div>
+                        <h3>Дегустации</h3>
+                        <p>Виски, ром, вино. Обучение и дегустации с сомелье каждую среду.</p>
+                        <span class="service-card__price">1500₽</span>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__icon">📸</div>
+                        <h3>Фотосессии</h3>
+                        <p>Аренда зала для фотосессий. Интерьеры под любой стиль.</p>
+                        <span class="service-card__price">от 2000₽/час</span>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <h4>📜 Реквизиты</h4>
+                    <p>ИП «Борзая»</p>
+                    <p>ИНН 123456789012</p>
+                    <p>ОГРНИП 123456789012345</p>
+                </div>
+                <div class="footer__col">
+                    <h4>📞 Контакты</h4>
+                    <p><a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+                    <p><a href="mailto:borzaya@gmail.com">borzaya@gmail.com</a></p>
+                    <p>📍 Москва, Пятницкая, 13</p>
+                </div>
+                <div class="footer__col">
+                    <h4>🌐 Мы в сети</h4>
+                    <p><a href="#">Instagram</a></p>
+                    <p><a href="#">Telegram</a></p>
+                    <p><a href="#">VK</a></p>
+                </div>
+                <div class="footer__col">
+                    <h4>📄 Документы</h4>
+                    <p><a href="#">Политика</a></p>
+                    <p><a href="#">Соглашение</a></p>
+                    <p><a href="#">Правила</a></p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2026 Борзая. 18+</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
